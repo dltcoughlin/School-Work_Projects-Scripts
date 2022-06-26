@@ -1,0 +1,10 @@
+Window "Calculators" (250, 250) Layout Flow:
+Panel Layout blah(5, 4, 5, 5):
+Textfield 20;
+    Button "7";
+    Textfield 15;
+    Button "8";
+    Button "9";
+    Button "4";
+    Radio Buttons "test1", "test2", "test3";
+End.
