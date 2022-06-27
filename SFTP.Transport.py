@@ -20,7 +20,7 @@ import argparse
 #EMAIL THAT GETS TRANSPORTATION FILE
 SCOPES = ['https://mail.google.com/']
 static_discovery=False
-our_email = 'auto@chesteruplandsd.org'
+our_email = ''
 def gmail_authenticate():
     creds = None
     # the file token.pickle stores the user's access and refresh tokens, and is
@@ -41,12 +41,12 @@ def gmail_authenticate():
     return build('gmail', 'v1', credentials=creds)
 
 def transport_file():
-    host = "crush.edulogweb.com"
-    port = 22
+    host = ""
+    port = 
     transport = paramiko.Transport((host,port))
     #SFTP SITE CREDENTIALS
-    password = 'Bawdy163Repeat'
-    userName = 'sftpcheltenhamtrans'
+    password = ''
+    userName = ''
 
     transport.connect(username = userName, password = password)
     sftp = paramiko.SFTPClient.from_transport(transport)
